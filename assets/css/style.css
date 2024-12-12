@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+
+.color-btn
+/* Padding cl */
+.pt-cl {
+    padding-top: 6rem;
+}
+
+.pt-9-cl {
+    padding-top: 9rem;
+}
+
+.pt-menu-geral {
+    padding-top: 6rem;
+}
+
+.letter-spacing-cl {
+    letter-spacing: 2px;
+}
+
+.text-size-cl {
+    font-size: larger;
+}
+
+.text-size-cl-p {
+    font-size: 6px;
+}
+
+.text-size-cl-m-f {
+    font-size: 14px;
+}
+
+.text-size-bt-menu {
+    font-size: 12px;
+}
+
+.text-decorado-none{
+    text-decoration: none;
+}
+
+.fa-bars {
+    color: #0f0f0f;
+    font-size: 24px !important;
+}
+
+.offcanvas-width-cl {
+    width: 280px !important;
+}
+
+.logo-nav-cl {
+    width: 10%;
+}
+
+.img-logo-p-cl {
+    width: 14%;
+}
+
+.img-logo-m-cl {
+    width: 28%
+}
+
+.bg-image {
+    border-radius: 12px;
+}
+
+.bg-gray {
+    background-color: #eee;
+}
+
+/*btn Background + font*/
+.bg-btn-red-cl {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500 !important;
+    background-color: #c00;
+}
+
+.bg-btn-redend-cl {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500 !important;
+    background-color: #C22;
+}
+
+.bg-btn-orange-cl {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500 !important;
+    background-color: #F0813A;
+}
+
+/*btn size + margin + padding*/
+.size-btn-cl {
+    max-width: 80%;
+    margin: 11px 0;
+    padding: 8px 0;
+}
+
+.size-btn-sm-cl {
+    max-width: 87%;
+    margin: 11px 0;
+    padding: 8px 0;
+}
+
+.icon-page-ativo,
+a:active {
+    color: gold
+}
+
+.icon-cl-effect {
+    transition: transform .3s ease-out;
+    display: inline-block;
+}
+
+.icon-cl-effect:hover {
+    transform: translate(0, -5px);
+}
+
+/*Border radius*/
+.border-r {
+    border-radius: 0.6rem 0.6rem 0 0;
+}
+
+/* Owl Carousel */
+.owl-carousel {
+    margin: 0;
+}
+
+.owl-carousel .item {
+    padding: 0;
+    background: transparent !important;
+}
+
+.owl-nav{
+    display: none;
+}
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+
+/*Eventos btn info*/
+.pt-cl-info-evento{
+    padding-top: 50%;
+}
+
+@media (min-width: 1280px) {
+    .size-btn-cl {
+        max-width: 40%;
+    }
+    .pt-9-cl {
+        padding-top: 0rem;
+    }
+}
+
+@media (min-width: 1040px) {
+
+    .img-logo-m-cl {
+        width: 28%
+    }
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 760px) {
+
+    /*vazio*/
+    .size-btn-sm-cl {
+        max-width: 50%;
+    }
+
+    .img-logo-m-cl {
+        width: 16%
+    }
+
+    .img-logo-p-cl {
+        width: 20%;
+    }
+
+    .pt-menu-geral {
+        padding-top: 0.8rem;
+        font-family: "Raleway", sans-serif;
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .img-logo-m-cl {
+        width: 32%;
+    }
+
+    .pt-cl {
+        padding-top: 3rem;
+    }
+
+    .text-size-cl {
+        font-size: medium;
+    }
+
+    .logo-nav-cl {
+        width: 12%;
+    }
+
+    .img-logo-p-cl {
+        width: 16%;
+    }
+
+    .pt-menu-geral {
+        padding-top: 0.8rem;
+        font-family: "Raleway", sans-serif;
+        font-size: 1rem !important;
+    }
+}
+/* ========================================================= */
+/* Animação de Vibração */
+@keyframes vibrate {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(-2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(2px, -2px); }
+    100% { transform: translate(0); }
+  }
+  
+  /* BTN campainha */
+  .btn-an{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    animation: vibrate 0.3s linear infinite;
+    text-decoration: none !important;
+  }
+  
+  .btn-ic{
+    width: 45px;
+    height: 45px;
+    padding: 0.4rem 0 0 0;
+  }
+  /* ========================================================= */

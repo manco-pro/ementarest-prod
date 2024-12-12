@@ -1,0 +1,12 @@
+# Archivo .gitignore
+
+compile/
+complile/dir
+cOmmOns/images/catalogos
+cOmmOns/images/colecciones
+Restaurant-template.rar
+z files/
+migrations/
+cOmmOns/class.mysqli.inc.php
+landingpage/
+vendor/

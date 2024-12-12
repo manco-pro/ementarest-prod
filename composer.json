@@ -1,0 +1,7 @@
+{
+    "require": {
+        "smarty/smarty": "^4.3",
+        "chillerlan/php-qrcode": "^5.0",
+        "tecnickcom/tcpdf": "^6.7"
+    }
+}
